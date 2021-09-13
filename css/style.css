@@ -63,7 +63,7 @@ nav a {
 }
 
 .hero_section span {
-    display: inline-block;
+    display: block;
     padding-top: 15px;
     padding-bottom: 35px;
 }
@@ -80,6 +80,7 @@ nav a {
 
 .buy_section {
     padding-top: 150px;
+    padding-bottom: 50px;
 }
 
 .buy_section h2 {
@@ -92,41 +93,167 @@ nav a {
 }
 
 .row_buy_section {
-    padding-top: 40px;
+    padding: 40px 0;
+}
+
+/* colonne */
+
+.gutter_buy_col {
+    padding: 0 10px;
 }
 
 .box_col {
-    border: 1px solid #637381;
+    border: 1px solid #637381a6;
+    min-height: 800px;
 }
 
 .box_col p:first-child {
     text-align: center;
     padding: 5px 0;
-    border-bottom: 1px solid #637381;
+    border-bottom: 1px solid #637381a6;
 }
 
-.text_buy_col {
+/* sezione top colonna */
+
+.top_buy_col {
     width: 80%;
     margin: auto;
 }
 
-.text_buy_col h3 {
+.top_buy_col h3 {
     padding-top: 15px;
     padding-bottom: 10px;
 }
 
-.text_buy_col span {
+.top_buy_col span {
     color: #637381;
     font-size: 80%;
 }
 
-.text_buy_col ul {
+.top_buy_col ul {
     font-size: 12px;
     padding-top: 30px;
     list-style: none;
 }
 
-.text_buy_col li {
+.top_buy_col li {
     padding-bottom: 15px;
 }
 
+/* sezione middle colonna */
+
+.middle_buy_col {
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.middle_buy_col > a {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.middle_buy_col p {
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+.middle_buy_col p a {
+    color: #0061FF;
+    text-decoration: none;
+}
+
+.middle_buy_col hr {
+    width: 20%;
+}
+
+/* sezione bottom colonna */
+
+.bottom_buy_col {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.bottom_buy_col ul{
+    list-style: none;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.bottom_buy_col li {
+    padding-bottom: 15px;
+}
+
+.bottom_buy_col i {
+    color: #0061FF;
+}
+
+/* enterprise */
+
+.enterprise_buy_section {
+    border: 1px solid #637381a6;
+}
+
+.enterprise_buy_section p:first-child {
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #637381a6;
+}
+
+.enterprise_box {
+    width: 95%;
+    margin: auto;
+}
+
+.enterprise_text h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.enterprise_text h4 {
+    padding-bottom: 25px;
+}
+
+.enterprise_text p {
+    padding-bottom: 20px;
+}
+
+.enterprise_btn {
+    padding-top: 20px;
+}
+
+.enterprise_btn a {
+    display: block;
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* *****SEZIONE DROPBOX PARTNER***** */
+
+.partner_section {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.img_section_partner img {
+    width: 100%;
+}
+
+.text_section_partner {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.text_section_partner p {
+    padding: 30px 0;
+}
+
+.text_section_partner a {
+    padding: 6px 12px;
+}
