@@ -1,0 +1,76 @@
+
+/* *****SEZIONE NAVBAR***** */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav ul {
+    background-color: white;
+    width: 50%;
+    float: left;
+    list-style: none;
+    padding: 0 10px;
+}
+
+nav ul:last-child {
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 40px;
+}
+
+nav img {
+    vertical-align: middle;
+}
+
+nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    padding: 4px 13px;
+}
+
+/* *****SEZIONE HERO***** */
+
+.hero_bg {
+    background-color: #B4D0E7;
+    margin-top: 41px;
+}
+
+.hero_section {
+    transform: translateY(60px);
+}
+
+.hero_section h1 {
+    padding-bottom: 30px;
+}
+
+.hero_section p {
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+
+.hero_section a {
+    padding: 8px 15px;
+    font-weight: bold;
+}
+
+.hero_section span {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+.hero_section i {
+    font-size: 30px;
+}
+
+.hero_section img {
+    width: 90%;
+}

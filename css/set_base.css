@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-    font-size: 77px;
+    font-size: 60px;
 }
 
 h2 {
@@ -25,23 +25,27 @@ h4, h5 {
     font-size: 16px;
 }
 
+.small {
+    font-size: 14px;
+}
+
 /* LARGHEZZE CONTAINER */
 
 .container {
-    max-width: 1010px;
+    max-width: 920px;
     width: 100%;
     margin: auto;
 }
 
 .container_large {
-    max-width: 1367;
+    max-width: 1080px;
     width: 100%;
     margin: auto;
 }
 
 /* DIMENSIONI COLONNE */
 
-[class="col_"] {
+[class*="col_"] {
     float: left;
 }
 
@@ -75,4 +79,18 @@ h4, h5 {
     content: "";
     display: table;
     clear: both;
+}
+
+/* BOTTONI */
+
+.btn_blu {
+    background-color: #0061FF;
+    color: white;
+    text-decoration: none;
+}
+
+.btn_white {
+    background-color: white;
+    color: black;
+    text-decoration: none;
 }
