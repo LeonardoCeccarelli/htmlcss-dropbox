@@ -6,6 +6,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 99;
 }
 
 nav ul {
@@ -74,3 +75,58 @@ nav a {
 .hero_section img {
     width: 90%;
 }
+
+/* *****MAIN BUY SECTION***** */
+
+.buy_section {
+    padding-top: 150px;
+}
+
+.buy_section h2 {
+    padding-bottom: 50px;
+}
+
+.radio_section {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.row_buy_section {
+    padding-top: 40px;
+}
+
+.box_col {
+    border: 1px solid #637381;
+}
+
+.box_col p:first-child {
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #637381;
+}
+
+.text_buy_col {
+    width: 80%;
+    margin: auto;
+}
+
+.text_buy_col h3 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.text_buy_col span {
+    color: #637381;
+    font-size: 80%;
+}
+
+.text_buy_col ul {
+    font-size: 12px;
+    padding-top: 30px;
+    list-style: none;
+}
+
+.text_buy_col li {
+    padding-bottom: 15px;
+}
+
