@@ -73,7 +73,7 @@ nav a {
 }
 
 .hero_section img {
-    width: 90%;
+    width: 100%;
 }
 
 /* *****MAIN BUY SECTION***** */
@@ -257,3 +257,66 @@ nav a {
 .text_section_partner a {
     padding: 6px 12px;
 }
+
+/* *****SEZIONE DROPBOX BUISNESS***** */
+
+.db_buisness_section {
+    padding-bottom: 100px;
+}
+
+.db_buisness_section h2 {
+    padding-bottom: 60px;
+}
+
+.gutter_db_box {
+    padding: 0 15px 60px;
+}
+
+.db_box img {
+    width: 100%;
+}
+
+.db_box h3 {
+    padding-bottom: 25px;
+}
+
+.db_box p a{
+    color: black;
+}
+
+/* *****SEZIONE DROPBOX TEAM***** */
+
+.db_team_top {
+    padding-right: 26%;
+    padding-bottom: 30px;
+}
+
+.db_team_top h2{
+    padding-bottom: 30px;
+}
+
+.db_team_top a {
+    color: #0061FF;
+    padding: 5px;
+}
+
+.db_team_middle_box {
+    float: left;
+    width: 50%;
+    height: 160px;
+    position: relative;
+}
+
+.db_team_middle_box img {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
