@@ -94,6 +94,16 @@ nav a {
 
 .row_buy_section {
     padding: 40px 0;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row_buy_section ul li {
+    padding-left: 20px;
+}
+
+.row_buy_section ul li i {
+    margin-left: -15px;
 }
 
 /* colonne */
@@ -277,6 +287,7 @@ nav a {
 }
 
 .db_box h3 {
+    padding-top: 10px;
     padding-bottom: 25px;
 }
 
@@ -286,6 +297,7 @@ nav a {
 
 /* *****SEZIONE DROPBOX TEAM***** */
 
+/* top */
 .db_team_top {
     padding-right: 26%;
     padding-bottom: 40px;
@@ -300,10 +312,11 @@ nav a {
     padding: 5px;
 }
 
+/* middle */
 .db_team_middle_box {
     float: left;
     width: 50%;
-    height: 160px;
+    height: calc(30vw / 2 - 4px);
     position: relative;
 }
 
@@ -318,8 +331,14 @@ nav a {
     bottom: 0;
 }
 
+.border_box_team_middle {
+    border: 7px solid #D0E9CD;
+}
+
 .db_team_middle_center {
     padding: 30px 40px 0;
+    height: calc(30vw - 8px);
+    overflow: auto;
 }
 
 .img_text_team_middle {
@@ -339,3 +358,27 @@ nav a {
 .db_team_middle_center p {
     padding-top: 40px;
 }
+
+/* bottom */
+.db_team_bottom {
+    background-color: #B4D0E7;
+    padding-bottom: 80px;
+}
+
+.db_team_bottom h2 {
+    padding-top: 100px;
+    padding-left: 25%;
+    color: #61082b;
+}
+
+.db_team_bottom_btn {
+    padding-top: 115px;
+    padding-left: 20%;
+}
+
+.db_team_bottom_btn a {
+    text-decoration: none;
+    border: none;
+    padding: 6px 65px;
+}
+

@@ -77,12 +77,12 @@ h4, h5 {
     width: calc(100% / 9 * 7);
 }
 
-.col_middle_1-4 {
-    width: 25%;
+.col_middle_30 {
+    width: 30%;
 }
 
-.col_middle_2-4 {
-    width: 50%;
+.col_middle_40 {
+    width: 40%;
 }
 
 /* CLEARFIX */
