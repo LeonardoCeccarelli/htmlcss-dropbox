@@ -110,3 +110,40 @@ h4, h5 {
 
 /* SFONDI SEZIONE TEAM */
 
+/* quadrati */
+.bg_buisness_green {
+    background-color: #A2D39B;
+}
+
+.bg_buisness_purple {
+    background-color: #61082B;
+}
+
+.bg_buisness_lightblue {
+    background-color: #0093CE;
+}
+
+.bg_buisness_red {
+    background-color: #FF1C1C;
+}
+
+.bg_buisness_darkred {
+    background-color: #D5001F;
+}
+
+.bg_buisness_cyan {
+    background-color: #B4D0E7;
+}
+
+.bg_buisness_blue {
+    background-color: #0D2481;
+}
+
+.bg_buisness_yellow {
+    background-color: #FFD830;
+}
+
+/* sfondo testo */
+.bg_buisness_white {
+    background-color: #F5F5F5;
+}

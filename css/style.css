@@ -288,7 +288,7 @@ nav a {
 
 .db_team_top {
     padding-right: 26%;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .db_team_top h2{
@@ -308,7 +308,6 @@ nav a {
 }
 
 .db_team_middle_box img {
-    display: inline-block;
     width: 70%;
     text-align: center;
     position: absolute;
@@ -319,4 +318,24 @@ nav a {
     bottom: 0;
 }
 
+.db_team_middle_center {
+    padding: 30px 40px 0;
+}
 
+.img_text_team_middle {
+    width: 20%;
+}
+
+.img_text_team_middle img {
+    width: 100%;
+    padding-bottom: 35px;
+}
+
+.img_text_team_middle hr {
+    width: 40%;
+    background-color: #637381;
+}
+
+.db_team_middle_center p {
+    padding-top: 40px;
+}
