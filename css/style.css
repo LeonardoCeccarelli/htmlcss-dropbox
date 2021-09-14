@@ -409,3 +409,43 @@ nav a {
     background-color: #63738149;
 }
 
+/* *****FOOTER SEZIONE LISTE***** */
+
+.footer_list_container {
+    padding: 90px 130px 0;
+}
+
+.footer_list {
+    width: 20%;
+    float: left;
+}
+
+.footer_list h4 {
+    padding-bottom: 20px;
+}
+
+.footer_list ul li {
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+
+.footer_list ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 4px 10px;
+}
+
+.footer_logo {
+    padding: 70px 130px 40px;
+}
+
+.footer_logo hr {
+    border-color: #637381;
+    width: 10%;
+}
+
+.footer_logo p {
+    padding-top: 40px;
+    color: #637381;
+}
