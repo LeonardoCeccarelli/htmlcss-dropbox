@@ -37,6 +37,12 @@ nav a {
     padding: 4px 13px;
 }
 
+nav .btn_effects:hover {
+    background-color: #637381;
+    color: white;
+    border-radius: 5px;
+}
+
 /* *****SEZIONE HERO***** */
 
 .hero_bg {
@@ -70,6 +76,7 @@ nav a {
 
 .hero_section i {
     font-size: 30px;
+    position: relative;
 }
 
 .hero_section img {
@@ -410,7 +417,6 @@ nav a {
 } 
 
 .single_quest_text {
-    /* display: none; */
     margin-top: 30px;
     height: 0px;
     overflow: hidden;
@@ -418,7 +424,6 @@ nav a {
 }
 
 .single_quest:focus .single_quest_text {
-    /* display: block; */
     height: 200px;
     overflow: auto;
 }

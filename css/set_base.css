@@ -117,6 +117,19 @@ ul {
     text-decoration: none;
 }
 
+[class*="btn_"] {
+    border-radius: 0px;
+    transition: all 0.3s;
+}
+
+[class*="btn_"]:hover {
+    border-radius: 15px;
+}
+
+[class*="btn_"]:active {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
 /* SFONDI SEZIONE TEAM */
 
 /* quadrati */
@@ -155,4 +168,21 @@ ul {
 /* sfondo testo */
 .bg_buisness_white {
     background-color: #F5F5F5;
+}
+
+/* ANIMAZIONI */
+
+.hero_section i {
+    animation: arrow_herosection 5s infinite ease-out;
+}
+
+@keyframes arrow_herosection{
+    from {
+        top: 0;
+        opacity: 1;
+    }
+    to {
+        top: 50px;
+        opacity: 0.1;
+    }
 }
