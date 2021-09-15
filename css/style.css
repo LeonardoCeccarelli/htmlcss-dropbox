@@ -404,7 +404,7 @@ nav a {
 .single_quest_icon {
     position: absolute;
     right: 20px;
-    top: calc(50% - 11px);
+    top: 65%;
     transform: rotateZ(0deg);
     transition: transform 0.3s;
 } 
@@ -456,6 +456,10 @@ nav a {
     color: white;
     font-size: 12px;
     padding: 4px 10px;
+}
+
+.footer_list ul a:hover {
+    font-weight: bold;
 }
 
 .footer_logo {
