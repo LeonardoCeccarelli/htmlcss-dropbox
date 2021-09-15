@@ -387,23 +387,45 @@ nav a {
     padding: 100px 0;
 }
 
-.single_quest {
-    position: relative;
-}
-
 .quest_section_top h3 {
     padding-bottom: 45px;
 }
 
 .single_quest h4 {
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: -30px;
+    position: relative;
 }
 
-.single_quest i {
+.single_quest span {
+    padding-right: 40px;
+}
+
+.single_quest_icon {
     position: absolute;
-    right: 0;
+    right: 20px;
     top: calc(50% - 11px);
+    transform: rotateZ(0deg);
+    transition: transform 0.3s;
 } 
+
+.single_quest_text {
+    /* display: none; */
+    margin-top: 30px;
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+.single_quest:focus .single_quest_text {
+    /* display: block; */
+    height: 200px;
+    overflow: auto;
+}
+
+.single_quest:focus .single_quest_icon {
+    transform: rotateZ(180deg);
+}
 
 .single_quest hr {
     background-color: #63738149;
