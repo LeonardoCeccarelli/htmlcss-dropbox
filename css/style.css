@@ -327,8 +327,12 @@ nav .btn_effects:hover {
     padding-bottom: 25px;
 }
 
-.db_box p a{
+.db_box p a {
     color: black;
+}
+
+.db_box p a:hover {
+    color: teal;
 }
 
 /* *****SEZIONE DROPBOX TEAM***** */
