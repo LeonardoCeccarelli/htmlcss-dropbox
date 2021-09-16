@@ -14,7 +14,7 @@ nav ul {
     width: 50%;
     float: left;
     list-style: none;
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 
 nav ul:last-child {
@@ -34,7 +34,7 @@ nav a {
     font-size: 14px;
     text-decoration: none;
     color: black;
-    padding: 4px 13px;
+    padding: 4px 14px;
 }
 
 nav .btn_effects:hover {
@@ -352,6 +352,10 @@ nav .btn_effects:hover {
     padding: 5px;
 }
 
+.db_team_top a:hover {
+    color: #002258;
+}
+
 /* middle */
 .db_team_middle_box {
     float: left;
@@ -375,7 +379,7 @@ nav .btn_effects:hover {
 }
 
 .db_team_middle_center {
-    padding: 30px 40px 0;
+    padding: 30px 40px 30px;
     height: calc(30vw - 8px);
     overflow: auto;
 }
