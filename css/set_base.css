@@ -126,7 +126,7 @@ ul {
     border-radius: 15px;
 }
 
-[class*="btn_"]:active {
+main [class*="btn_"]:active {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 

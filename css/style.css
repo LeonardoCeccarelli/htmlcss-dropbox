@@ -95,8 +95,33 @@ nav .btn_effects:hover {
 }
 
 .radio_section {
-    display: inline-block;
     padding-right: 10px;
+}
+
+/* modifiche input radio */
+
+.radio_section > input[type="radio"] {
+    display: none;
+}
+
+.radio_section > input[type="radio"] + *::before {
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+    border: 0.1rem solid gray;
+}
+
+.radio_section > input[type="radio"]:checked + *::before {
+    background: radial-gradient(teal 0%, teal 40%, transparent 50%, transparent);
+    border-color: teal;
+}
+
+.radio_section > input[type="radio"]:checked + * {
+    color: teal;
 }
 
 .row_buy_section {
@@ -181,6 +206,10 @@ nav .btn_effects:hover {
 .middle_buy_col p a {
     color: #0061FF;
     text-decoration: none;
+}
+
+.middle_buy_col p a:hover {
+    text-decoration: underline;
 }
 
 .middle_buy_col hr {
