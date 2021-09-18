@@ -379,9 +379,10 @@ nav .btn_effects:hover {
 }
 
 .db_team_middle_center {
-    padding: 30px 40px 30px;
+    padding: 30px 40px;
     height: calc(30vw - 8px);
-    overflow: auto;
+    overflow-y: auto;
+    scroll-padding-bottom: 10px;
 }
 
 .img_text_team_middle {
